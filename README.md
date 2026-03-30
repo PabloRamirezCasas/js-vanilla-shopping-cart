@@ -1,4 +1,11 @@
 # 🛒 Carrito de Compras - JS Vanilla (Ruta MERN)
+## 📽️ Demostración del Funcionamiento
+
+| 🛒 Añadir Productos | 🗑️ Vaciar / Eliminar |
+| :---: | :---: |
+| ![Selección de cursos](./img/Seleccion.gif) | ![Eliminar del carrito](./img/eliminarCarrito.gif) |
+
+> **Nota:** La aplicación utiliza **Delegación de Eventos** para gestionar ambos procesos de forma eficiente con un único listener en el contenedor padre.
 
 **[🔗 Ver Demo en Vivo](https://pabloramirezcasas.github.io/js-vanilla-shopping-cart/)**
 
