@@ -4,24 +4,25 @@
 
 ![Estado del Proyecto](https://img.shields.io/badge/Estado-Completado-green)
 
-Este proyecto es una aplicación funcional de carrito de compras donde se aplican conceptos fundamentales de JavaScript Moderno antes de saltar a frameworks como React.
+Este proyecto es una aplicación funcional de carrito de compras donde se aplican conceptos fundamentales de JavaScript Moderno (ES6+) como base técnica antes de la transición a React.
 
 ## 🚀 Funcionalidades
-- **Gestión de Productos:** Agregar y eliminar cursos del carrito de forma dinámica.
-- **Validaciones:** Control de duplicados para evitar que un mismo curso se añada varias veces.
-- **UI Dinámica:** Actualización del DOM en tiempo real mediante la creación de elementos HTML con JS.
-- **Persistencia:** (En proceso) Implementación de LocalStorage para mantener el estado.
+- **Gestión Dinámica:** Agregar y eliminar elementos del carrito mediante manipulación del DOM.
+- **Validación de Integridad:** Control de duplicados para evitar redundancia en la selección.
+- **Interfaz Reactiva:** Actualización del UI en tiempo real basada en el estado del carrito.
+- **Persistencia de Datos:** (Próximamente) Implementación de LocalStorage.
 
-## 🛠️ Tecnologías y Conceptos Aplicados
-- **JavaScript ES6+:** Arrow functions, Destructuring, Template Strings.
-- **DOM Manipulation:** `querySelector`, `addEventListener`, creación de elementos.
-- **Event Delegation:** Optimización de eventos mediante el manejo de burbujeo desde contenedores padres.
-- **CSS Framework:** Skeleton (para un diseño limpio y responsive).
+## 🛠️ Conceptos Técnicos Aplicados
+- **Event Delegation:** Optimización de memoria mediante el manejo de burbujeo (bubbling) desde contenedores raíz.
+- **DOM Scripting:** Uso de `querySelector`, `createElement` y gestión de nodos.
+- **JavaScript Moderno:** Desestructuración de objetos, Template Literals y Arrow Functions.
+- **Estética:** Skeleton CSS Framework para un diseño ligero y responsivo.
 
-## 💡 Lo que aprendí en este proyecto
-En este ejercicio profundicé en la **Delegación de Eventos**, entendiendo por qué es más eficiente asignar un solo listener al contenedor padre en lugar de múltiples listeners a cada botón de 'Agregar'. Esto no solo mejora el rendimiento de la memoria, sino que facilita el manejo de elementos creados dinámicamente.
+## 💡 Aprendizajes Clave
+El enfoque principal fue la **Delegación de Eventos**. Comprendí la eficiencia de asignar un único listener al padre en lugar de múltiples listeners a elementos dinámicos, lo cual es una práctica esencial para el rendimiento y la escalabilidad de aplicaciones web.
 
 ## 🔧 Instalación y Uso
+
 1. Clona el repositorio:
-   ```bash
-   git clone [https://github.com/PabloRamirezCasas/js-vanilla-shopping-cart.git](https://github.com/PabloRamirezCasas/js-vanilla-shopping-cart.git)
+```bash
+git clone git@github.com:PabloRamirezCasas/js-vanilla-shopping-cart.git
