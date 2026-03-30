@@ -25,4 +25,4 @@ El enfoque principal fue la **Delegación de Eventos**. Comprendí la eficiencia
 
 1. Clona el repositorio:
 ```bash
-git clone git@github.com:PabloRamirezCasas/js-vanilla-shopping-cart.git
+git clone https://github.com/PabloRamirezCasas/js-vanilla-shopping-cart.git
