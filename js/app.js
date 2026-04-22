@@ -8,7 +8,7 @@ cargarEventListeners();
 function cargarEventListeners() {
   document.addEventListener( 'DOMContentLoaded', () => {
     //Recuperar los valores del carrito de LocalStorage
-    articulosCarrito = JSON.parse(localStorage.getItem('carrito'));
+    articulosCarrito = JSON.parse(localStorage.getItem('carrito')) || [];
     carritoHTML();
   })
   listaCursos.addEventListener("click", agregarCurso);
